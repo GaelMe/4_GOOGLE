@@ -96,19 +96,14 @@
         grid-template-areas: france;
     }
     
-    #france {
-        grid-area: france;
-        justify-self: ;
-    }
-    
     #footer {
         background-color: rgba(206, 206, 206, 0.918);
         position: absolute;
         bottom: 0;
         display: grid;
-        grid-template-columns: 77px 77px 77px 219px minmax(100px, 1000px) 150px 150px 100px;
+        grid-template-columns: 77px 77px 77px 230px minmax(200px, 9000px) 150px 100px 100px 100px;
         grid-template-rows: 50px;
-        grid-template-areas: "propos publicite entreprise fonctionne carbone consommateurs confidentialité conditions";
+        grid-template-areas: "propos publicite entreprise fonctionne carbone consommateurs confidentialité conditions parametre";
     }
     
     #propos {
@@ -155,6 +150,12 @@
     
     #conditions {
         grid-area: conditions;
+        justify-self: center;
+        align-self: center
+    }
+    
+    #parametre {
+        grid-area: parametre;
         justify-self: center;
         align-self: center
     }
