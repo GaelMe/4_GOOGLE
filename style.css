@@ -89,13 +89,6 @@
         border-radius: 3px;
     }
     
-    #last {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 50px;
-        grid-template-areas: france;
-    }
-    
     #footer {
         background-color: rgba(206, 206, 206, 0.918);
         position: absolute;
